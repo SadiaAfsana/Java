@@ -1,4 +1,5 @@
 package com.company;
+
 import java.util.Scanner;
 //4.Write a program to check if inputted letter is small or capital
 
@@ -10,10 +11,10 @@ public class Small_Capital {
         char ch = in.next().charAt(0);
 
         if (Character.isUpperCase(ch))
-            System.out.println(ch+" is capital letter!");
+            System.out.println(ch + " is capital letter!");
         else if (Character.isLowerCase(ch))
-            System.out.println(ch+" is small letter!");
+            System.out.println(ch + " is small letter!");
         else
-            System.out.println(ch +" is not an alphabet!");
+            System.out.println(ch + " is not an alphabet!");
     }
 }

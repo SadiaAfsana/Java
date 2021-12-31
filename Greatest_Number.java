@@ -1,4 +1,5 @@
 package com.company;
+
 import java.util.Scanner;
 //2.Take three numbers from the user and print the greatest number
 

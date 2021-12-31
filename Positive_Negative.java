@@ -1,4 +1,5 @@
 package com.company;
+
 import java.util.Scanner;
 
 // 1.Write a program to get a number from the user and print whether it is positive or negative.
@@ -10,12 +11,12 @@ public class Positive_Negative {
         System.out.print("Input number: ");
         int number = in.nextInt();
 
-        if(number > 0)
+        if (number > 0)
             System.out.println(number + " is positive");
-        else if(number < 0)
-            System.out.println(number +" is negative");
+        else if (number < 0)
+            System.out.println(number + " is negative");
         else
-            System.out.println(number +" is Zero");
+            System.out.println(number + " is Zero");
     }
 
 }

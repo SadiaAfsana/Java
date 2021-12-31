@@ -11,14 +11,13 @@ public class Sum_Quiz {
         int num1 = rand.nextInt(100);
         int num2 = rand.nextInt(100);
 
-        System.out.println("First Number: "+num1);
-        System.out.println("Second Number: "+num2);
-        Scanner in = new Scanner(System.in);
+        System.out.println("First Number: " + num1);
+        System.out.println("Second Number: " + num2);
         System.out.print("Enter the sum: ");
+        Scanner in = new Scanner(System.in);
         int sum = in.nextInt();
 
-        System.out.println(num1 + num2 == sum? "Correct!" : "Wrong!");
-
+        System.out.println(num1 + num2 == sum ? "Correct!" : "Wrong!");
 
 
     }

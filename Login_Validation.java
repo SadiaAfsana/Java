@@ -1,4 +1,5 @@
 package com.company;
+
 import java.util.Scanner;
 
 //6.Write a program to check if the provided user credentials are valid during login
@@ -16,6 +17,6 @@ public class Login_Validation {
         System.out.print("Enter Password: ");
         String p = in.next();
 
-        System.out.println(u.equals(UserName) && p.equals(Password)? "Login Successful!" : "Login Failed!");
-        }
+        System.out.println(u.equals(UserName) && p.equals(Password) ? "Login Successful!" : "Login Failed!");
+    }
 }

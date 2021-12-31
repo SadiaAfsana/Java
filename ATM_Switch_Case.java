@@ -1,7 +1,6 @@
 package com.company;
-
 import java.util.Scanner;
-
+//8.Write a program to check balance and withdraw money from ATM booth using switch case
 public class ATM_Switch_Case {
     public static void main(String[] args) {
         double Balance = 10000.57;

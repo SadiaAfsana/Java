@@ -1,8 +1,10 @@
 package com.company;
 import java.util.Scanner;
 //5.Write a program to calculate CGPA and find grade
+
 public class Cgpa_Grade {
     public static void main(String[] args) {
+
         Scanner in = new Scanner(System.in);
         System.out.print("Enter Course 1 GPA: ");
         double g1 = in.nextDouble();

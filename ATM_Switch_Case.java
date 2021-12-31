@@ -15,8 +15,7 @@ public class ATM_Switch_Case {
                 break;
             case 2:
                 System.out.println("Please Enter Withdrawal Amount: ");
-                Scanner in1 = new Scanner(System.in);
-                double input1 = in1.nextDouble();
+                double input1 = in.nextDouble();
                 System.out.println("Withdrawal successful!");
                 System.out.println("Your Current Balance is: "+(Balance-input1));
                 break;

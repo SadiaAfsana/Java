@@ -16,7 +16,6 @@ public class ATM_if_else {
         else if (input == 2)
         {
             System.out.println("Please Enter Withdrawal Amount: ");
-            Scanner in1 = new Scanner(System.in);
             double input1 = in.nextDouble();
             System.out.println("Withdrawal successful!");
             System.out.println("Your Current Balance is: "+(Balance-input1));

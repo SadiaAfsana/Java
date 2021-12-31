@@ -9,12 +9,12 @@ public class Login_Validation {
         String Password = "Sadia123#@";
 
         Scanner in = new Scanner(System.in);
+
         System.out.print("Enter UserName: ");
         String u = in.next();
 
-        Scanner in1 = new Scanner(System.in);
         System.out.print("Enter Password: ");
-        String p = in1.next();
+        String p = in.next();
 
         System.out.println(u.equals(UserName) && p.equals(Password)? "Login Successful!" : "Login Failed!");
         }

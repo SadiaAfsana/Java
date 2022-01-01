@@ -10,8 +10,8 @@ public class Math_Quiz {
         int score = 0;
 
         for (int i = 0; i < 5; i++) {
-            int num1 = rand.nextInt(10);
-            int num2 = rand.nextInt(10);
+            int num1 = rand.nextInt(100);
+            int num2 = rand.nextInt(100);
             System.out.println("First Number: " + num1);
             System.out.println("Second Number: " + num2);
             System.out.print("Enter the sum: ");

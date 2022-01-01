@@ -7,15 +7,18 @@ public class Cgpa_Grade {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
-        System.out.print("Enter Course 1 GPA: ");
-        double g1 = in.nextDouble();
-        System.out.print("Enter Course 2 GPA: ");
-        double g2 = in.nextDouble();
-        System.out.print("Enter Course 3 GPA: ");
-        double g3 = in.nextDouble();
+        int i;
+        double Cgpa = 0;
+        System.out.print("Enter No. of semesters: ");
+        int s = in.nextInt();
 
-        double Cgpa = (g1 + g2 + g3) / 3;
-        System.out.format("Your Cgpa is : %.2f", Cgpa);
+        for (i = 1; i <= s; i++) {
+            System.out.print("Enter Semester" + i + " GPA: ");
+            double g1 = in.nextDouble();
+            Cgpa = Cgpa + g1;
+        }
+
+        System.out.format("Your Cgpa is : %.2f", Cgpa / s);
         System.out.println("");
 
         if (Cgpa >= 3.8)

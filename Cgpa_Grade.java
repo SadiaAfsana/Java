@@ -8,7 +8,7 @@ public class Cgpa_Grade {
 
         Scanner in = new Scanner(System.in);
         int sumcch = 0;
-        double CGPA = 0, sumTCH = 0, TGPA = 0, sumTGPA = 0, cp = 0;
+        double CGPA = 0, cp = 0, sumcp = 0;
 
         System.out.print("Enter No. of Semesters Completed: ");
         int s = in.nextInt();
@@ -23,23 +23,21 @@ public class Cgpa_Grade {
                 System.out.print("Enter Courser" + i + " Grade Point: ");
                 double cgp = in.nextDouble();
                 cp = cp + (cch * cgp);
+                sumcp = sumcp + cp;
             }
-            TGPA = cp / sumcch;
-            System.out.println("Your Total GPA for semester  " + j + " is " + TGPA);
-            sumTGPA = sumTGPA + TGPA;
-            CGPA = sumTGPA / s;
-        }
 
+        }
+        CGPA = cp / sumcch;
         System.out.format("Your Cgpa is : %.2f", CGPA);
         System.out.println("");
 
         if (CGPA >= 3.8)
             System.out.println("Excellent: Grade A");
         else if (CGPA < 3.79 && CGPA >= 3.5)
-            System.out.println("Good: Grade B");
+            System.out.println("Good: Grade A-");
         else if (CGPA < 3.49 && CGPA >= 3.0)
-            System.out.println("Poor: Grade C");
+            System.out.println("Poor: Grade B+");
         else
-            System.out.println("Failed!");
+            System.out.println("Average!");
     }
 }

@@ -8,7 +8,7 @@ public class Cgpa_Grade {
 
         Scanner in = new Scanner(System.in);
         int sumcch = 0;
-        double CGPA = 0, cp = 0, sumcp = 0;
+        double CGPA = 0, cp = 0;
 
         System.out.print("Enter No. of Semesters Completed: ");
         int s = in.nextInt();
@@ -23,7 +23,6 @@ public class Cgpa_Grade {
                 System.out.print("Enter Courser" + i + " Grade Point: ");
                 double cgp = in.nextDouble();
                 cp = cp + (cch * cgp);
-                sumcp = sumcp + cp;
             }
 
         }

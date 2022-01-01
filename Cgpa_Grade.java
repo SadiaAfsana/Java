@@ -7,12 +7,11 @@ public class Cgpa_Grade {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
-        int i;
         double Cgpa = 0;
         System.out.print("Enter No. of semesters: ");
         int s = in.nextInt();
 
-        for (i = 1; i <= s; i++) {
+        for (int i = 1; i <= s; i++) {
             System.out.print("Enter Semester" + i + " GPA: ");
             double g1 = in.nextDouble();
             Cgpa = Cgpa + g1;

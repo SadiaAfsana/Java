@@ -16,17 +16,14 @@ public class Greatest_Number {
         System.out.print("Enter 3rd number: ");
         int num3 = in.nextInt();
 
-        if (num1 > num2)
-            if (num1 > num3)
-                System.out.println("The greatest numbers is: " + num1);
+        if ((num1 > num2) && (num1 > num3))
+            System.out.println("The greatest numbers is: " + num1);
 
-        if (num2 > num1)
-            if (num2 > num3)
-                System.out.println("The greatest numbers is: " + num2);
+        if ((num2 > num1) && (num2 > num3))
+            System.out.println("The greatest numbers is: " + num2);
 
-        if (num3 > num1)
-            if (num3 > num2)
-                System.out.println("The greatest numbers is: " + num3);
+        if ((num3 > num1) && (num3 > num2))
+            System.out.println("The greatest numbers is: " + num3);
     }
 
 }

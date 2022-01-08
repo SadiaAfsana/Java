@@ -1,5 +1,5 @@
 package Assignment_3;
-//Find the max and min number from a given array.
+//3. Find the max and min number from a given array
 
 public class Max_Min {
     public int max(int[] array) {

@@ -1,5 +1,5 @@
 package Assignment_3;
-import java.util.Arrays;
+//2. Write a program to find if any element is duplicate. If duplicate, show the value.
 
 public class Duplicate_Check {
     public static void dup(int[] array) {

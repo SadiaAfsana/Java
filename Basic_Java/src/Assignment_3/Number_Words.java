@@ -15,7 +15,7 @@ public class Number_Words {
         while (val.equals("")) {
             val = sc.nextLine();
             Random rand = new Random();
-            int number = rand.nextInt(10);
+            int number = rand.nextInt(11);
             System.out.println("Number: " + number);
             System.out.print("Number in words: " + numberToWord(number));
         }
@@ -23,13 +23,10 @@ public class Number_Words {
 
     private static String numberToWord(int number) {
         String words = "";
-        String unitsArray[] = {"zero", "one", "two", "three", "four", "five", "six",
-                "seven", "eight", "nine", "ten"};
+        String wordsArray[] = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"};
 
-        if (number == 0)
-            return "zero";
-        if (number > 0)
-            words += unitsArray[number];
+        if (number == 0) return "zero";
+        if (number > 0) words += wordsArray[number];
         return words;
     }
 }

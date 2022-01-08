@@ -5,29 +5,28 @@ import java.util.Scanner;
 
 public class Note_Count {
 
-    public static void notes(int amount) {
-        int[] notes = new int[]{1000, 500, 100, 50, 20, 10};
-        int[] noteCount = new int[6];
+    public static void main(String[] args) {
+        int[] myArray = {1000, 500, 100, 50, 20, 10, 5, 2};
+        System.out.println("Enter Amount (Tk): ");
+        Scanner sc = new Scanner(System.in);
+        int amount = sc.nextInt();
+        notes(amount, myArray);
+    }
 
-        for (int i = 0; i < 6; i++) {
-            if (amount >= notes[i]) {
-                noteCount[i] = amount / notes[i];
-                amount = amount - noteCount[i] * notes[i];
+    public static void notes(int amount, int[] array) {
+
+        int[] noteCount = new int[array.length];
+
+        for (int i = 0; i < array.length; i++) {
+            if (amount >= array[i]) {
+                noteCount[i] = amount / array[i];
+                amount = amount - noteCount[i] * array[i];
             }
         }
 
         System.out.println("Notes Required -");
-        for (int i = 0; i < 6; i++) {
-            if (noteCount[i] != 0) {
-                System.out.println(notes[i] + "Tk : " + noteCount[i]);
-            }
+        for (int i = 0; i < array.length; i++) {
+            if (noteCount[i] != 0) System.out.println(array[i] + "Tk : " + noteCount[i]);
         }
-    }
-
-    public static void main(String[] args) {
-        System.out.println("Enter Amount (Tk): ");
-        Scanner sc = new Scanner(System.in);
-        int amount = sc.nextInt();
-        notes(amount);
     }
 }

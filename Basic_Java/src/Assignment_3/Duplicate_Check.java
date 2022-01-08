@@ -11,9 +11,9 @@ public class Duplicate_Check {
         int n = sc.nextInt();
         int[] array = new int[n];
         System.out.println("Enter the elements of the array: ");
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++)
             array[i] = sc.nextInt();
-        }
+        
         dup(array);
     }
 

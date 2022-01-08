@@ -11,12 +11,9 @@ public class Positive_Negative {
         System.out.print("Input number: ");
         int number = in.nextInt();
 
-        if (number > 0)
-            System.out.println(number + " is positive");
-        else if (number < 0)
-            System.out.println(number + " is negative");
-        else
-            System.out.println(number + " is Zero");
+        if (number > 0) System.out.println(number + " is positive");
+        else if (number < 0) System.out.println(number + " is negative");
+        else System.out.println(number + " is Zero");
     }
 
 }

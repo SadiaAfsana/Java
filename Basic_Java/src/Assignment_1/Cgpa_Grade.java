@@ -30,13 +30,9 @@ public class Cgpa_Grade {
         System.out.format("Your Cgpa is : %.2f", CGPA);
         System.out.println("");
 
-        if (CGPA >= 3.8)
-            System.out.println("Excellent: Grade A");
-        else if (CGPA < 3.79 && CGPA >= 3.5)
-            System.out.println("Good: Grade A-");
-        else if (CGPA < 3.49 && CGPA >= 3.0)
-            System.out.println("Poor: Grade B+");
-        else
-            System.out.println("Average!");
+        if (CGPA >= 3.8) System.out.println("Excellent: Grade A");
+        else if (CGPA < 3.79 && CGPA >= 3.5) System.out.println("Good: Grade A-");
+        else if (CGPA < 3.49 && CGPA >= 3.0) System.out.println("Poor: Grade B+");
+        else System.out.println("Average!");
     }
 }

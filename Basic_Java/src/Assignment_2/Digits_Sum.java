@@ -1,4 +1,5 @@
 package Assignment_2;
+
 import java.util.Scanner;
 
 //Write a program to sum of digits of a number by taking from user input

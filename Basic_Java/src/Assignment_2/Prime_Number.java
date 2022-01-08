@@ -14,8 +14,7 @@ public class Prime_Number {
         while (i < n) {
             int j = 1, count = 0;
             while (j <= i) {
-                if (i % j == 0)
-                    count++;
+                if (i % j == 0) count++;
                 j++;
             }
             if (count == 2) {

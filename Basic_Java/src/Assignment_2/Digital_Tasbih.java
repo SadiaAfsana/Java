@@ -16,6 +16,6 @@ public class Digital_Tasbih {
             if (val == "0")
                 break;
         }
-       System.out.println(count);
+        System.out.println(count);
     }
 }

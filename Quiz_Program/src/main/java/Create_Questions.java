@@ -13,10 +13,11 @@ public class Create_Questions {
     public static void main(String[] args) throws IOException, ParseException {
 
         String fileName = "./src/main/resources/Questions.json";
+        JSONParser jsonParser = new JSONParser();
+        Object obj = jsonParser.parse(new FileReader(fileName));
+        JSONObject QstnObj = new JSONObject();
+
         for (int i = 1; i <= 20; i++) {
-            JSONParser jsonParser = new JSONParser();
-            Object obj = jsonParser.parse(new FileReader(fileName));
-            JSONObject QstnObj = new JSONObject();
 
             Scanner input1 = new Scanner(System.in);
             Scanner input = new Scanner(System.in);

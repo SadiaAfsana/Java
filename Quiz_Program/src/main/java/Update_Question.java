@@ -10,15 +10,15 @@ import java.io.IOException;
 public class Update_Question {
     public static void main(String[] args) throws IOException, ParseException {
 
-        updateQstn(2, "Answer", "c");
+        updateQstn(0, "Answer", "a");
     }
 
-    static <FileWriter> void updateQstn(int pos, String key, String value) throws IOException, ParseException {
+    static void updateQstn(int pos, String key, String value) throws IOException, ParseException {
 
         String fileName = "./src/main/resources/Questions.json";
         JSONParser jsonParser = new JSONParser();
         Object obj = jsonParser.parse(new FileReader(fileName));
-        System.out.println(obj);
+
         JSONArray jsonArray = (JSONArray) obj;
         JSONObject jsonObject = (JSONObject) jsonArray.get(pos);
         jsonObject.put(key, value);
@@ -27,6 +27,5 @@ public class Update_Question {
         file.flush();
         file.close();
         System.out.println("Updated!");
-        System.out.print(jsonArray);
     }
 }

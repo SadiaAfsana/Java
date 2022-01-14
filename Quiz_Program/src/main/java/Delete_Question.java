@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class Delete_Question {
     public static void main(String[] args) throws IOException, ParseException {
-        deleteQstn(2);
+        deleteQstn(1);
 
     }
 

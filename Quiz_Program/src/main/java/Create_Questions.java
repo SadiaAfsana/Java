@@ -41,7 +41,6 @@ public class Create_Questions {
 
             JSONArray jsonArray = (JSONArray) obj;
             jsonArray.add(QstnObj);
-            //System.out.print(jsonArray);
             FileWriter file = new FileWriter(fileName);
             file.write(jsonArray.toJSONString());
             file.flush();

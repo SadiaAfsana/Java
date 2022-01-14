@@ -13,7 +13,7 @@ public class Update_Question {
         updateQstn(2, "Answer", "c");
     }
 
-    static void updateQstn(int pos, String key, String value) throws IOException, ParseException {
+    static <FileWriter> void updateQstn(int pos, String key, String value) throws IOException, ParseException {
 
         String fileName = "./src/main/resources/Questions.json";
         JSONParser jsonParser = new JSONParser();

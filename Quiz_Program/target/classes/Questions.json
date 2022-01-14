@@ -1,0 +1,222 @@
+[
+  {
+    "Answer": "a",
+    "options": {
+      "a": "Thomas Alva Edison",
+      "b": "Alexander Lodygin",
+      "c": "Schuyler Wheeler",
+      "d": "R. G. LeTourneau"
+    },
+    "Question": "Who invented the Light Bulb?",
+    "id": "1"
+  },
+  {
+    "Answer": "b",
+    "options": {
+      "a": "Saturn",
+      "b": "Mars",
+      "c": "Pluto",
+      "d": "Jupiter"
+    },
+    "Question": "Which planet in our solar system is known as the Red Planet?",
+    "id": "2"
+  },
+  {
+    "Answer": "c",
+    "options": {
+      "a": "Earth",
+      "b": "Neptune",
+      "c": "Jupiter",
+      "d": "Mars"
+    },
+    "Question": "What is the name of the biggest planet in our solar system?",
+    "id": "3"
+  },
+  {
+    "Answer": "d",
+    "options": {
+      "a": "Qiwi",
+      "b": "Sparrow",
+      "c": "LadyBird",
+      "d": "Bee Hummingbird"
+    },
+    "Question": "Which is the smallest bird in the world?",
+    "id": "4"
+  },
+  {
+    "Answer": "b",
+    "options": {
+      "a": "Al Khwarizimi",
+      "b": "Charles Babbage",
+      "c": "Alan Turing",
+      "d": "Douglas Engelbart"
+    },
+    "Question": "Who invented the Computer?",
+    "id": "5"
+  },
+  {
+    "Answer": "a",
+    "options": {
+      "a": "Titan",
+      "b": "Rhea",
+      "c": "Dione",
+      "d": "Enceladus"
+    },
+    "Question": "What is the name of the largest moon of Saturn?",
+    "id": "6"
+  },
+  {
+    "Answer": "c",
+    "options": {
+      "a": "An operating system",
+      "b": "A processing device",
+      "c": "Application software",
+      "d": "An input device"
+    },
+    "Question": "MS-Word is an example of - ?",
+    "id": "7"
+  },
+  {
+    "Answer": "a",
+    "options": {
+      "a": "modifier",
+      "b": "function",
+      "c": "alphanumeric",
+      "d": "adjustment"
+    },
+    "Question": "Ctrl, Shift and Alt are called - keys ?",
+    "id": "8"
+  },
+  {
+    "Answer": "a",
+    "options": {
+      "a": "Lime",
+      "b": "Ocean mist",
+      "c": "Maroon",
+      "d": "Tangerine"
+    },
+    "Question": "What color does yellow and green make?",
+    "id": "9"
+  },
+  {
+    "Answer": "b",
+    "options": {
+      "a": "Barley and rice",
+      "b": "Milk and its products",
+      "c": "Rice and pulses",
+      "d": "Vegetables and fruits"
+    },
+    "Question": "The staple food of the Vedic Aryan was -?",
+    "id": "10"
+  },
+  {
+    "Answer": "c",
+    "options": {
+      "a": "Earthquakes",
+      "b": "Rainfall",
+      "c": "Ocean depth",
+      "d": "Sound intensity"
+    },
+    "Question": "Fathometer is used to measure - ?",
+    "id": "11"
+  },
+  {
+    "Answer": "b",
+    "options": {
+      "a": "nuclear fission",
+      "b": "nuclear fusion",
+      "c": "natural radioactivity",
+      "d": "artificial radioactivity"
+    },
+    "Question": "Hydrogen bomb is based on the principle of  - ?",
+    "id": "12"
+  },
+  {
+    "Answer": "b",
+    "options": {
+      "a": "Diffraction of light",
+      "b": "Dispersion of light",
+      "c": " Reflection of light",
+      "d": "Refraction of light"
+    },
+    "Question": "The blue colour of the clear sky is due to - ?",
+    "id": "13"
+  },
+  {
+    "Answer": "c",
+    "options": {
+      "a": "Radio waves",
+      "b": "Microwaves",
+      "c": "Infra-red waves",
+      "d": "None of the above"
+    },
+    "Question": "Which one of the following types of waves are used in a night vision apparatus?",
+    "id": "14"
+  },
+  {
+    "Answer": "c",
+    "options": {
+      "a": "Dog",
+      "b": "Rat",
+      "c": "Elephant",
+      "d": "Dolphin"
+    },
+    "Question": "What animal has the worst memory?",
+    "id": "15"
+  },
+  {
+    "Answer": "a",
+    "options": {
+      "a": "Ostrich",
+      "b": "Flamingo",
+      "c": "Emu",
+      "d": "Peacock"
+    },
+    "Question": "The bird which lays more than 100 eggs in one nest is - ?",
+    "id": "16"
+  },
+  {
+    "Answer": "b",
+    "options": {
+      "a": "Sheep",
+      "b": "Goat",
+      "c": "Rabbit",
+      "d": "Yak"
+    },
+    "Question": "Pashmina shawl is made from the hair of - ?",
+    "id": "17"
+  },
+  {
+    "Answer": "c",
+    "options": {
+      "a": "Flying fish",
+      "b": "Sea horse",
+      "c": "Frog",
+      "d": "Chemeleon"
+    },
+    "Question": "In which of the following animals is respiration done by skin?",
+    "id": "18"
+  },
+  {
+    "Answer": "b",
+    "options": {
+      "a": "Rattlesnake",
+      "b": "King Cobra",
+      "c": "Krait",
+      "d": "Russel's viper"
+    },
+    "Question": "For which one of the following snakes is the diet mainly composed of other snakes ?",
+    "id": "19"
+  },
+  {
+    "Answer": "c",
+    "options": {
+      "a": "Up to 60 ltr.",
+      "b": "Up to 80 ltr.",
+      "c": "Up to 100 ltr.",
+      "d": "Up to 120 ltr."
+    },
+    "Question": "How much water can be used by a camel in drinking in a single time ?",
+    "id": "20"
+  }
+]

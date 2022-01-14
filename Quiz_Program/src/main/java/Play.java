@@ -49,9 +49,8 @@ public class Play {
             if (ans.equals(sc.nextLine())) {
                 System.out.println("Correct");
                 score++;
-            }
-            else System.out.println("wrong");
+            } else System.out.println("wrong");
         }
-        System.out.println("Your Final Score is: " + score +"/5");
+        System.out.println("Your Final Score is: " + score + "/5");
     }
 }

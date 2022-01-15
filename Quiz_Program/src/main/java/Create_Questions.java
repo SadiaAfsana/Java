@@ -3,7 +3,6 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -28,7 +27,7 @@ public class Create_Questions {
             QstnObj.put("Question", input.nextLine());
 
             JSONObject OptionObj = new JSONObject();
-            
+
             System.out.println("Input option a: ");
             OptionObj.put("a", input.nextLine());
             System.out.println("Input option b: ");
@@ -37,6 +36,7 @@ public class Create_Questions {
             OptionObj.put("c", input.nextLine());
             System.out.println("Input option d: ");
             OptionObj.put("d", input.nextLine());
+
             QstnObj.put("options", OptionObj);
 
             System.out.println("Input Answer: ");
